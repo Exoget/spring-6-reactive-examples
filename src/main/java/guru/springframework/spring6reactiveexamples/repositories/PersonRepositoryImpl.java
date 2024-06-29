@@ -4,9 +4,7 @@ import guru.springframework.spring6reactiveexamples.domain.Person;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-/**
- * Created by jt, Spring Framework Guru.
- */
+
 public class PersonRepositoryImpl implements PersonRepository {
 
     Person michael = Person.builder().id(1).firstName("Michael").lastName("Weston").build();
